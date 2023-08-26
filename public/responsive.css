@@ -1,0 +1,558 @@
+@import "variables.css";
+
+/*Navbar*/
+/*****************************************************************************************************************************************/
+
+@media(max-width: 1100px) {
+    .nav-bar {
+        background: #fff;
+    }
+
+    .nav-logo {
+        width: 80px;
+        padding: 10px;
+    }
+
+    .nav-links {
+        position: fixed;
+        background: #fff;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+        box-shadow: -4px 0px 8px -2px rgba(0,0,0,.4);
+
+    }
+
+    .nav-links ul { 
+        padding: 30px;
+    }
+
+    .nav-links li {
+        display: block;
+        width: min-content;
+        margin-left: 0;
+    }
+
+    nav .fa {
+        display: block;
+        color: #fff;
+        font-size: 32px;
+        cursor: pointer; 
+    }
+
+    nav .fa-times {
+        padding: 20px 30px 0;
+    }
+
+}
+
+/*Landing*/
+/*****************************************************************************************************************************************/
+
+@media screen and (max-width: 1100px) {
+    .landing {
+        min-height: 500px;
+    }
+
+    .landing h1 {
+        width: 70%;
+        font-size: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .landing {
+        min-height: 400px;
+    }
+
+    .landing h1 {
+        width: 80%;
+        font-size: 35px;
+    }
+
+    .landing-contact-btn {
+        padding: 10px 24px;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 460px) {
+    .landing h1 {
+        font-size: 30px;
+    }
+
+}
+
+/*Services*/
+/*****************************************************************************************************************************************/
+
+@media screen and (max-width: 1600px) {
+    .services {
+        height: auto;
+    }
+
+    .services-header {
+        width: 70%;
+    }
+
+    .services-card-row {
+        justify-content: center;  
+        flex-wrap: wrap;
+    }
+
+    .services-card-row-element {
+        flex-basis: 40%;
+    }
+      
+    .services-card-row-element-img {
+        height: min(35vw, 250px);
+        width: min(35vw, 250px);
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .services-card-row {
+        width: 90%;
+    }
+      
+    .services-card-row-element {
+        flex-basis: 45%;
+    }
+    
+    .services-card-row-element:hover {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .services-card-row-element-img {
+        height: min(35vw, 220px);
+        width: min(35vw, 220px);
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .services {
+        gap: 35px;
+    }
+
+    .services-header {
+        width: 90%;
+    }
+
+    .services-header h1 {
+        font-size: 28px;
+    }
+
+    .services-header p {
+        font-size: 14px;
+    }
+
+    .services-card-row {
+        width: 80%;
+    }
+      
+    .services-card-row-element {
+        flex-basis: 100%;
+    }
+
+    .services-card-row-element p {
+        font-size: 14px;
+    }
+    
+    
+    .services-card-row-element:hover {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .services-card-row-element-img {
+        height: min(45vw, 220px);
+        width: min(45vw, 220px);
+    }
+
+}
+
+/*Projects*/
+/*****************************************************************************************************************************************/
+
+@media screen and (max-width: 1600px) {
+    .projects-gallery-row-element {
+        flex-basis: 40%;
+    }
+
+    .project-hover-layer h3{
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .projects-gallery-row-element {
+        flex-basis: min(450px, 90%);
+    }
+
+    .project-hover-layer h3{
+        font-size: 20px;
+    }
+
+    .project-hover-layer a {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .projects {
+        gap: 35px;
+    }
+
+    .projects-gallery-row-element {
+        flex-basis: min(450px, 90%);
+    }
+
+    .projects-header h1 {
+        font-size: 28px;
+    }
+
+    .project-hover-layer h3{
+        font-size: 18px;
+        width: 70%;
+        transition: 1s;
+    }
+
+    .project-hover-layer a {
+        font-size: 12px;
+        padding: 2px 25px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .project-hover-layer h3{
+        font-size: 14px;
+        width: 85%;
+    }
+}
+
+
+/*Contacts*/
+/*****************************************************************************************************************************************/
+
+@media screen and (max-width: 1600px) {    
+    .contact-father {
+        gap: 50px;
+    }
+    .about-us-child p {
+        font-size: 16px;
+    }
+
+    .contact-child {
+        height: 550px;
+        width: 370px;
+        padding: 15px;
+    }
+    .contact-child-white {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        height: 520px;
+        width: 220px;
+        gap: 30px;
+    }
+
+    .contact-child-white-txt {
+        padding-left: 0;
+    }
+
+    .contact-child-white-img img {
+        width: 270px;
+    }
+
+
+}
+
+@media screen and (max-width: 1100px) {    
+    .contact-father {
+        flex-direction: column;
+        height: auto;
+        padding: 100px 0 100px 0;
+
+    }
+
+    .about-us-child {
+        width: 60%;
+    }
+
+    .about-us-child img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-father {
+        gap: 30px;
+    }
+    
+    .about-us-child h1 {
+        font-size: 28px;
+    }
+
+    .about-us-child p {
+        font-size: 16px;
+    }
+
+    .contact-child-white-txt h1 {
+        font-size: 28px;
+    }
+
+    .contact-child {
+        width: 300px;
+    }
+    .contact-child-white {
+        height: 440px;
+        width: 180px;
+    }
+
+    .contact-child-white-txt h3 {
+        font-size: 16px;
+    }
+
+    .contact-child-white-txt p {
+        font-size: 14px;
+    }
+
+    .contact-child-white-img img {
+        width: 220px;
+    }
+
+    .about-us-child p {
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .contact-child {
+        width: 260px;
+        background-color: transparent;
+    }
+
+    .about-us-child {
+        width: 80%;
+    }
+
+    .contact-child-white {
+        background-color: transparent;
+        width: 90%;
+    }
+
+    .contact-child-white-txt {
+        background-color: rgb(255, 255, 255);
+        padding: 0px 30px 15px;
+    }
+
+    .contact-child-white-txt h1 {
+        padding-bottom: 5px;
+
+    }
+
+    .contact-child-white-txt h3 {
+        padding-bottom: 5px;
+
+    }
+
+    .contact-child-white-img {
+        background-color: #f0f7ff;
+        padding: 15px;
+    }
+
+    .contact-child-white-img img {
+        width: 180px;
+
+    }
+        
+}
+
+/*Partners*/
+/*****************************************************************************************************************************************/
+
+@media screen and (max-width: 1600px) {    
+    .partners-flex-img-box {
+        height: 80px;
+    }
+    
+    .partners-flex-img-long {
+        height: 50px;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {    
+    .partners-flex-box {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {    
+    .partners-section h1 {
+        font-size: 28px;
+        width: 80%;
+        text-align: center;
+
+    }
+    
+    .partners-flex-box {
+        gap: 50px;
+    }
+    
+    .partners-flex-img-box {
+        height: 50px;
+    }
+    
+    .partners-flex-img-long {
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {    
+
+    
+    .partners-flex-box {
+        gap: 30px;
+    }
+    
+    .partners-flex-img-box {
+        height: 40px;
+    }
+    
+    .partners-flex-img-long {
+        height: 30px;
+    }
+}
+
+/*Footer*/
+/*****************************************************************************************************************************************/
+
+@media screen and (max-width: 768px) {    
+    .footer-flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+    }
+        
+    h2 {
+        font-size: 16px;
+    }
+    
+    .footer li {
+        font-size: 14px;    
+    }
+    
+    .l-footer {
+        flex-basis: 100px;
+        margin: auto;
+    }
+
+    .l-footer h2 {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    
+    .l-footer p {
+        font-size: 14px;
+        padding: 0;
+    }   
+    
+    .r-footer {
+        flex-basis: 100px;
+    }
+
+    .r-footer h2 {
+        text-align: center;
+        padding-bottom: 5px;
+        margin: 0;
+    }
+}
+
+/*Lightbox*/
+/*****************************************************************************************************************************************/
+
+@media screen and (max-width: 1100px) { 
+    
+    .full-flex {
+        align-items: flex-start;     
+     }
+     
+     .project-dialog {
+         flex-direction: column;
+         align-items: center;
+         padding: 120px 0 90px;
+     }
+     
+     .text-flex-child {
+         width: 85%;
+         padding: 50px 4%;
+
+     }
+
+     .text-flex-child h2 {
+        font-size: 22px;    
+    }
+     
+     .text-flex-child p {
+         font-size: 16px;
+     }
+     
+     .text-flex-child ul {
+         font-size: 16px;
+     }
+     
+     .img-flex-child {
+        width: 93%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {    
+     
+    .project-dialog {
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0 90px;
+        width: 90%;
+    }
+    
+    .text-flex-child {
+        width: 85%;
+        padding: 35px 4%;
+
+    }
+
+    .text-flex-child h2 {
+        font-size: 20px;    
+        padding-bottom: 10px;
+    }
+    
+    .text-flex-child p {
+        font-size: 14px;
+    }
+    
+    .text-flex-child ul {
+        font-size: 14px;
+    }
+    
+    .img-flex-child {
+       width: 93%;
+   }
+
+}

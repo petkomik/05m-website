@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PBTG5BXQV6"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PBTG5BXQV6');
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link rel="stylesheet" type="text/css" href="variables.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0314fec3f9.js" crossorigin="anonymous"></script>    
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel = "icon" href = "/assets/visuals/logo/Asset 6.ico" type = "image/x-icon">
+    <title>05 М Павета</title>
+</head>
+
+<body>
+
+<!---------Navigation Section-------->
+
+<nav>
+<div class="nav-bar" id="nav-js">
+    <a  href = "#landing">
+    <img src="assets/visuals/logo/Asset 7-r.png" class="nav-logo" id="logo-js">
+    </a>
+
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" style="color:black" onclick="hideMenu()"></i>
+        <ul class="nav-links-list" id="nav-links-list-js">
+            <li><a href = "#landing"  onclick="hideMenu()" class="nav-links-list-items">Начало</a></li>
+            <li><a href = "#services"  onclick="hideMenu()" class="nav-links-list-items">Услуги</a></li>
+            <li><a href = "#projects"  onclick="hideMenu()" class="nav-links-list-items">Проекти</a></li>
+            <li><a href = "#contact-father"  onclick="hideMenu()" class="nav-links-list-items">Контакти</a></li>
+        </ul>
+    </div>
+
+    <i class="fa fa-bars" style="color:black" onclick="showMenu()"></i>
+
+</div>
+</nav>
+
+    
+<!---------Landing Section-------->
+
+<div class="landing" id="landing" onclick="hideMenu()">
+
+<h1>"Всяко паве си има своето място при нас!"</h1>
+
+<a href="#services" class="landing-contact-btn">Услуги</a>
+
+<a href="#services">
+<svg class="arrows">
+    <path class="a1" d="M0 0 L30 32 L60 0"></path>
+    <path class="a2" d="M0 20 L30 52 L60 20"></path>
+    <path class="a3" d="M0 40 L30 72 L60 40"></path>
+</svg>
+</a>
+
+</div>
+
+<!---------Services Section-------->
+
+<div class="services" id="services" onclick="hideMenu()">    
+
+<div class="services-header">
+    <h1>Какво предлагаме ние?</h1>
+    <p>Павьорството е стар занаят, който все повече се заменя от асфалта, но паважът ще създаде рамката, контура на вашия проект, както една картина не може без рамка. Нашaта фирма се занимава основно с павиране и вертикална панировка.</p>
+</div>
+
+<div class="services-card-row">
+    <div class="services-card-row-element">
+        <h3>Павиране</h3>
+        <p>Нашата дейност обхваща целия процес: оглед, разчертаване, консултация при избор на настилки, доставка, направа на земно легло, настилане на трошено-каменна фракция, трамбоване, полагане бордюри и сипица, редене на избраните павета, фугиране.</p>
+        <div class="services-card-row-element-img">
+        <img src="assets/visuals/services/pepeeee.png">
+        </div>
+    </div>
+    <div class="services-card-row-element">
+        <h3>Озелняване</h3>
+        <p>След уточняване на изисквания на инвеститора, изготвяме проект за озеленяване на обекта, моделиране на терена, насипване, направа на плочопътеки и други декоративни елементи - доставка и засаждане на декоративна растителност, машинно затревяване и полагане на чимове.</p>
+        <div class="services-card-row-element-img">
+        <img src="assets/visuals/services/ozelenqvane.png">
+        </div>
+    </div>
+    <div class="services-card-row-element">
+        <h3>Други дейности</h3>
+        <p>Можем да преложим и решения за: асфалтиране, цялостна вертикална планировка, поливна система, оградни пана, монтаж на отводнители, габиони, декоративни подпорни системи, дренажни системи, паркоелементи за финализиране на вашия проект.</p>
+        <div class="services-card-row-element-img">
+        <img src="assets/visuals/services/other2.png">
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!---------Projects Section-------->
+
+<div class="projects" id="projects" onclick="hideMenu()">
+
+<div class="projects-header">
+<h1>Реализирани Проекти</h1>
+</div>
+
+<div class="projects-gallery-row">
+    <div class="projects-gallery-row-element">
+        <img src="assets/images/Photos - Частен дом - гр.Костинброд/home_kostinbrod_cover.jpg">
+        <div class="project-hover-layer" id="phone-sctoll-7">
+            <h3 id="phone-sctoll-7-h3">
+                Частен дом - гр.Костинброд <br>    
+                <div class="padding-hack"></div>      
+                <a href="project_pages/project_kostinbrod.html">ВИЖТЕ ОЩЕ</a>     
+            </h3>
+        </div>
+    </div>
+    <div class="projects-gallery-row-element">
+        <img src="assets/images/Photos - Частен Дом - гр.Банкя/home_bankq_cover.jpeg">
+        <div class="project-hover-layer" id="phone-sctoll-1">
+            <h3 id="phone-sctoll-1-h3">
+                Частен дом - гр.Банкя <br>  
+                <div class="padding-hack"></div>                                 
+                <a href="project_pages/project_bankq.html">ВИЖТЕ ОЩЕ</a>
+            </h3>
+        </div>
+    </div>
+    <div class="projects-gallery-row-element">
+        <img src="assets/images/Photos - Частен Дом - Вилна зона Американски колеж/american_college_villa_cover.jpeg">
+        <div class="project-hover-layer"  id="phone-sctoll-2">
+            <h3 id="phone-sctoll-2-h3">
+                Частен дом - Вилна зона Американски колеж <br>      
+                <div class="padding-hack"></div>                             
+                <a href="project_pages/project_american_college.html">ВИЖТЕ ОЩЕ</a>
+            </h3>
+        </div>
+    </div>
+    <div class="projects-gallery-row-element">
+        <img src="assets/images/Photos - Комплекс Флора Гарден 2/floras_garden_cover.jpeg">
+        <div class="project-hover-layer"  id="phone-sctoll-3">
+            <h3 id="phone-sctoll-3-h3">
+                Комплекс Флора Гарден 2 <br>   
+                <div class="padding-hack"></div>                
+                <a href="project_pages/project_flora_garden.html">ВИЖТЕ ОЩЕ</a>
+            </h3>
+        </div>
+    </div>
+    <div class="projects-gallery-row-element">
+        <img src="assets/images/Photos - Блокс Груп България ЕАД/bloks_grup_cover.jpg">
+        <div class="project-hover-layer" id="phone-sctoll-4">
+            <h3 id="phone-sctoll-4-h3">
+                Блокс Груп България ЕАД <br>   
+                <div class="padding-hack"></div>                
+                <a href="project_pages/project_bloks_grup.html">ВИЖТЕ ОЩЕ</a>                
+            </h3>
+        </div>
+    </div>
+    <div class="projects-gallery-row-element">
+        <img src="assets/images/Photos - Частен Дом - Бистрица/home_bistrica_cover.jpeg">
+        <div class="project-hover-layer" id="phone-sctoll-5">
+            <h3 id="phone-sctoll-5-h3">
+                Частен дом - Бистрица <br>   
+                <div class="padding-hack"></div>                
+                <a href="project_pages/project_bistrica.html">ВИЖТЕ ОЩЕ</a>                
+            </h3>
+        </div>
+    </div>
+    <div class="projects-gallery-row-element">
+        <img src="assets/images/Photos - Частен Дом - Бистрица_ Манастира/home_bistrica_manastira_cover.jpeg">
+        <div class="project-hover-layer" id="phone-sctoll-6">
+            <h3 id="phone-sctoll-6-h3">
+                Частен дом - Бистрица / Манастира <br>    
+                <div class="padding-hack"></div>                
+                <a href="project_pages/project_bistrica_manastira.html">ВИЖТЕ ОЩЕ</a>                            
+            </h3>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!---------Contact Section-------->
+
+<div class="contact-father" id="contact-father" onclick="hideMenu()">
+
+    <div class="about-us-child">
+        <h1>За Нас</h1>
+        <p>
+        Свежите ни идеи, желанието ни за реализиране на нови проекти и положителните отзиви от клиенти са основният двигател, който движи екипа ни напред.        </p>
+        <p>
+        Единствената цел, която имаме, е да доставяме усмивки на нашите клиенти, да ви помогнем да реализирате проекта, за който мечтаете и от който имате нужда!
+        </p>
+        <p>
+        До този момент, фирмата има редица изпълнени обекти и много доволни клиенти.        
+        </p>
+        <img src="assets/visuals/about/about-us-illustration.png">
+    </div>
+
+    <div class="contact-child">
+        <div class="contact-child-white">
+            <div class="contact-child-white-txt">
+                <h1>Контакти</h1>
+                <h3>Михаил Миков</h3>
+                <p>mikov_m@abv.bg<br>
+                +359 878 250 808
+                </p>
+            </div>
+
+            <div class="contact-child-white-img">
+                <img src="assets/images/contacts-shefa.jpg">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!---------Partners Section-------->
+
+<div class="partners-section" onclick="hideMenu()">
+    <h1>Нашите Партньори</h1>
+    <div class="partners-flex-box">
+        <a  href = "https://www.dianacommerce.com/" target=”_blank”>
+            <img src="assets/partner_logos/diana-commerse.png" class="partners-flex-img-box">
+        </a>
+        <a  href = "https://jody-son.com/bg/" target=”_blank”>
+            <img src="assets/partner_logos/jodyson.png" class="partners-flex-img-long">
+        </a>
+        <a  href = "https://www.stroidirect.com/" target=”_blank”>
+            <img src="assets/partner_logos/stroidirekt.png" class="partners-flex-img-long">
+        </a>
+        <a  href = "https://proplants.bg/" target=”_blank”>
+            <img src="assets/partner_logos/proplants-market-logo.png" class="partners-flex-img-box">
+        </a>
+        <a  href = "https://www.wienerberger.bg/semmelrock.html" target=”_blank”>
+            <img src="assets/partner_logos/semmelrock-trans.png" class="partners-flex-img-long">
+        </a>
+    </div>
+
+</div>
+
+
+<!---------Footer Section-------->
+
+<div class="footer">
+<div class="footer-flex">    
+    <div class="l-footer">
+        <h2>ЗАЩО НАС</h2>
+        <ul>
+            <li>Опит и компетенция</li>
+            <li>Коректност в изпълнение на сроковете</li>
+            <li>Индивидуален подход</li>
+        </ul>
+
+    </div>
+
+    <div class="r-footer">
+        <h2>КОНТАКТИ</h2>
+        <ul class="fa-ul">
+            <li><span class="fa-li"><i class="fa-solid fa-briefcase"></i></span>05 M EOOD</li>
+            <li><span class="fa-li"><i class="fa-solid fa-envelope"></i></span>mikov_m@abv.bg</li>
+            <li><span class="fa-li"><i class="fa-solid fa-phone"></i></span>+359 878 250 808</li>
+        </ul>
+    </div>
+
+
+    <div class="b-footer">
+    <p>Всички права запазени ©05 M 2023 </p>
+    </div>
+</div>
+</div>
+<script src="scripts.js"></script> 
+</body>
+</html>

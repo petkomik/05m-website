@@ -1,0 +1,15 @@
+:root {
+    --black: rgb(20, 20, 20);
+    --secondary-text-color: rgb(90, 90, 90);
+    --text-color: rgb(54, 54, 54);
+    --box-shadow: rgba(0,0,0,.4);
+
+    --transparent-white: rgba(255, 255, 255, 0.9);
+    --white: #ffffff;
+    --dirty-white: rgb(199, 199, 199);
+
+    --blue: #0064D3;
+    --light-blue: #f0f7ff;
+    --hover-blue: rgba(24, 106, 212, 0.534);
+
+}
